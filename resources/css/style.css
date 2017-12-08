@@ -27,19 +27,17 @@ h2, h3, h4 {
 .logo img {
   height: 50px;
   margin-left: 10px;
-  flex-grow: 1;
 }
 
 .menu-item a {
   color: seashell;
   padding: 10px;
+  text-decoration: underline;
 }
 
-.page-content {
-  padding-top: 70px;
-}
 
 .page-header {
+  padding-top: 70px;
   display: flex;
   align-items: center;
   background-image: url("../images/img-mission-background.jpg");
@@ -53,8 +51,8 @@ h2, h3, h4 {
   width: 1200px;
 }
 
-.page-body {
-  padding-top: 50px;
+.body-header {
+  padding-top: 70px;
 }
 
 .products {
@@ -79,11 +77,11 @@ h2, h3, h4 {
   width: 1200px;
   height: 500px;
   margin: 60px auto 0 auto;
+  padding-top: 70px;
 }
 
 .locations h2 {
   margin: 0px auto 15px auto;
-  padding-top: 70px;
 }
 
 .location-blocks {
@@ -103,4 +101,13 @@ h2, h3, h4 {
 
 .single-location p {
   padding: 10px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright p {
+  text-align: left;
+  margin-left: 20px;
 }
